@@ -12,5 +12,6 @@ docker pull worthlessfella/synthetic-char-infer-cuda12:latest
 docker run --rm --gpus all -v $(pwd)/outputs:/app/outputs --name synthetic-char-infer worthlessfella/synthetic-char-infer-cuda12:latest  
 ''' 
 
-It stores the output in docker_outputs folder in the present working directory.  
-
+It stores the output in docker_outputs folder in the present working directory.
+For sample output please check the outputs and docker_outputs folder. 
+ 
